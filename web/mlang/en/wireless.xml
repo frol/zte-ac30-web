@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<langage>
+<!--  this section is for wifi Station List (StationList.asp) -->
+<lang id="state Title" string="Wi-Fi Setting--&gt;Station List" />
+<lang id="stalist WirelessNet" string="Wireless Network" />
+<lang id="stalist Station" string="Station" />
+<lang id="stalist MacAddr" string="MAC Address" />
+
+
+<!--  this section is for wifi basic (basic.asp) --> 
+<lang id="basic Title" string="Wi-Fi Setting--&gt;Basic" />
+<lang id="basic WirelessNet" string="Wireless Network" />
+<lang id="basic RadioButton" string="Wi-Fi On/Off" />
+<lang id="basic NetMode" string="Network Mode" />
+<lang id="basic SSID" string="Network Name(SSID)" />
+<lang id="basic BroadcastSSID" string="Broadcast Network Name (SSID)" />
+<lang id="basic BroadcastSSIDEnablenote" string="Enable" />
+<lang id="basic BroadcastSSIDDisablenote" string="Disable" />
+<lang id="basic ApIsolated" string="AP Isolation" />
+<lang id="basic ApIsolatedEnablenote" string="Enable" />
+<lang id="basic ApIsolatedDisablenote" string="Disable" />
+<lang id="basic BSSID" string="BSSID" />
+<lang id="basic FreqAnote" string="Frequency (Channel)" />
+<lang id="basic FreqBnote" string="Frequency (Channel)" />
+<lang id="basic FreqGnote" string="Frequency (Channel)" />
+<lang id="basic Ratenote" string="Rate" />
+<lang id="basic WDSTitle" string="Wireless Distribution System(WDS)" />
+<lang id="basic WDSMode" string="WDS Mode" />
+<lang id="basic WDSPhyMode" string="Phy Mode" />
+<lang id="basic WDSEncrypType" string="EncrypType" />
+<lang id="basic WDSEncrypKey" string="Encryp Key" />
+<lang id="basic WDSAPMacAddr" string="AP MAC Address" />
+<lang id="basic Apply" string="Apply" />
+<lang id="basic ResetOOB" string="Reset OOB" />
+<lang id="basic Cancel" string="Cancel" />
+<lang id="basic HTPhyMode" string="HT Physical Mode" />
+<lang id="basic HTOPMode" string="Operating Mode" />
+<lang id="basic HTMixednote" string="Mixed Mode" />
+<lang id="basic HTMixedgreennote" string="Green Field" />
+<lang id="basic HTChannelBW" string="Channel BandWidth" />
+<lang id="basic HTGI" string="Guard Interval" />
+<lang id="basic MCS" string="MCS" />
+<lang id="basic HTRDG" string="Reverse Direction Grant(RDG)" />
+<lang id="basic HTRDGDisablenote" string="Disable" />
+<lang id="basic HTRDGEnablenote" string="Enable" />
+<lang id="basic HTExtChannel" string="Extension Channel" />
+<lang id="basic HTAMSDU" string="Aggregation MSDU(A-MSDU)" />
+<lang id="basic HTAMSDUDisablenote" string="Disable" />
+<lang id="basic HTAMSDUEnablenote" string="Enable" />
+<lang id="basic HTAddBA" string="Auto Block ACK" />
+<lang id="basic HTAddBADisablenote" string="Disable" />
+<lang id="basic HTAddBAEnablenote" string="Enable" />
+<lang id="basic HTDelBA" string="Decline BA Request" />
+<lang id="basic HTDelBADisablenote" string="Disable" />
+<lang id="basic HTDelBAEnablenote" string="Enable" />
+<!--fangxia -->
+<lang id="basic MAX Staion Number" string="MAX Staion Number" />
+<lang id="basic CountryCode" string="Country Code" />
+<!--add 20090515-->
+<lang id="radio onoffbuttondisablenote" string="Disable" />
+<lang id="radio onoffbuttonenablenote" string="Enable" />
+<!--add-->
+<lang id="basic HTLongGI" string="long" />
+<lang id="basic HTAutoGI" string="Auto" />
+
+<!--  this section is for wifi wps (wps.asp) -->
+<lang id="wifi wps title" string="Wi-Fi Setting--&gt;WPS" />
+<lang id="wifi wps menu1" string="Station List" />
+<lang id="wifi wps menu2" string="Basic" />
+<lang id="wifi wps menu3" string="Advanced" />
+<lang id="wifi wps menu4" string="Security" />
+<lang id="wifi wps menu5" string="WPS" />
+<lang id="wps Config_text" string="WPS Config" />
+<lang id="wps WPS_text" string="WPS" />
+<lang id="wps Summary_text" string="WPS Summary" />
+<lang id="wps Current Status_text" string="WPS Current Status" />
+<lang id="wps Configured_text" string="WPS Configured" />
+<lang id="wps SSID_text" string="WPS SSID" />
+<lang id="wps AuthMode_text" string="WPS Auth Mode" />
+<lang id="wps EncrypType_text" string="WPS Encryp Type" />
+<lang id="wps DefaultKeyIndex_text" string="WPS Default Key Index" />
+<lang id="wps WPAKeyType_tex" string="WPS WPA passphrase" />
+<lang id="wps APPIN_text" string="AP PIN" />
+<lang id="wps Progress_text" string="WPS Progress" />
+<lang id="wps PINMode_text" string="PIN" />
+<lang id="wps PBCMode_text" string="PBC" />
+<lang id="wps Mode_text" string="WPS mode" />
+<lang id="wps PINNum_text" string="Client PIN" />
+<lang id="wps Status_text" string="WPS Status" />
+<lang id="wps Config Apply_text" string="Apply" />
+<lang id="wps ResetOOB_text" string="Reset OOB" />
+<lang id="wps PIN Apply_text" string="Apply" />
+
+<!--  this section is for wifi security (security.asp) -->
+<lang id="wifi security title" string="Wi-Fi Setting--&gt;Security" />
+<lang id="wifi security menu1" string="Station List" />
+<lang id="wifi security menu2" string="Basic" />
+<lang id="wifi security menu3" string="Advanced" />
+<lang id="wifi security menu4" string="Security" />
+<lang id="wifi security menu5" string="WPS" />
+<lang id="sp_title" string="Security Policy" />
+<lang id="secure SecureMode" string="Security Mode" />
+<lang id="secure EncrypType" string="Encrypt Type" />
+<lang id="secure WEP" string="Wire Equivalence Protection (WEP)" />
+<lang id="secure WEPDefaultKey" string="Default Key" />
+<lang id="secure WEPKey" string="WEP Keys" />
+<lang id="secure WEPKey1" string="WEP Key 1 :" />
+<lang id="secure WEPKey2" string="WEP Key 2 :" />
+<lang id="secure WEPKey3" string="WEP Key 3 :" />
+<lang id="secure WEPKey4" string="WEP Key 4 :" />
+<lang id="secreWPA" string="WPA" />
+<lang id="secureWPA Algorithm" string="WPA Algorithms" />
+<lang id="secureWPA PassPhrase" string="Pass Phrase" />
+<lang id="secureWPA Key Renew Interval" string="Key Renewal Interval" />
+<lang id="key Renewal Interval input" string="seconds" />
+<lang id="PMK Cache Period input" string="Minutes" />
+<lang id="secure WPA PMKCachePeriod" string="PMK Cache Period" />
+<lang id="secure WPAPreAuth" string="Pre-Authentication" />
+<lang id="secure 8021XWEP" string="802.1x WEP" />
+<lang id="secure 1XWEP" string="WEP" />
+<lang id="secure Radius" string="Radius Server" />
+<lang id="secure RadiusIPAddr" string="IP Address" />
+<lang id="secure RadiusPort" string="Port" />
+<lang id="secure RadiusSharedSecret" string="Shared Secret" />
+<lang id="secure RadiusSessionTimeout" string="Session Timeout" />
+<lang id="secure RadiusIdleTimeout" string="Idle Timeout" />
+<lang id="secure Apply" string="Apply" />
+<lang id="secure Cancel" string="Cancel" />
+<lang id="wifi securitymacfilter" string="Add MAC Filtering Rule" />
+<lang id="wifi securitymacaddress" string="MAC Address" />
+<!--add-->
+<lang id="secure WPAPreAuthDisable" string="Disable" />
+<lang id="secure WPAPreAuthEnable" string="Enable" />
+<lang id="secure 1XWEPDisable" string="Disable" />
+<lang id="secure 1XWEPEnable" string="Enable" />
+<!--add 20090509-->
+<lang id="wireless macfiltering" string="Wireless MAC Filtering" />
+<lang id="wireless disable" string="Wireless Disable" />
+<lang id="wireless allow" string="Wireless Allow" />
+<lang id="wireless reject" string="Wireless Reject" />
+
+
+
+<!--  this section is for wifi advanced (advanced.asp) -->
+<lang id="adv Title" string="Wi-Fi Setting--&gt;Advanced" />
+<lang id="wifi stationlist" string="&#8226;Station List" />
+<lang id="wifi basic" string="&#8226; Basic" />
+<lang id="wifi advanced" string="&#8226;Advanced" />
+<lang id="wifi security" string="&#8226;Security" />
+<lang id="wifi WPS" string="&#8226;WPS" />
+<lang id="adv Wireless" string="Advanced Wireless" />
+<lang id="adv BeaconInterval" string="Beacon Interval" />
+<lang id="adv DTIM" string="Data Beacon Rate (DTIM)" />
+<lang id="adv Frag" string="Fragment Threshold" />
+<lang id="adv RTS" string="RTS Threshold" />
+<lang id="adv TxPW" string="TX Power" />
+<lang id="adv ShortPre" string="Short Preamble" />
+<lang id="adv ShortPreEnable" string="Enable" />
+<lang id="adv ShortPreDisable" string="Disable" />
+<lang id="adv ShortSlot" string="Short Slot" />
+<lang id="adv ShortSlotEnable" string="Enable" />
+<lang id="adv ShortSlotDisable" string="Disable" />
+<lang id="adv TxBurst" string="Tx Burst" />
+<lang id="adv TxBurstEnable" string="Enable" />
+<lang id="adv TxBurstDisable" string="Disable" />
+<lang id="adv PktAggr" string="Pkt_Aggregate" />
+<lang id="adv PktAggrEnable" string="Enable" />
+<lang id="adv PktAggrDisable" string="Disable" />
+<lang id="adv 80211H" string="IEEE 802.11H Support" />
+<lang id="adv 80211HEnable" string="Enable" />
+<lang id="adv 80211HDisable" string="Disable" />
+<lang id="adv CountryCode" string="Country Code" />
+<lang id="adv WiFiMM" string="Wi-Fi Multimedia" />
+<lang id="adv WMM" string="WMM Capable" />
+<lang id="adv WMMEnable" string="Enable" />
+<lang id="adv WMMDisable" string="Disable" />
+<lang id="adv APDS" string="APSD Capable" />
+<lang id="adv BeaconIntervalRangenote" string="(range 20 - 999, default 100)" />
+<lang id="adv DTIMRangenote" string="(range 1 - 255, default 1)" />
+<lang id="adv FragRangenote" string="(range 256 - 2346, default 2346)" />
+<lang id="adv RTSRangenote" string="(range 1 - 2347, default 2347)" />
+<lang id="adv TxPWRangenote" string="(range 1 - 100, default 100)" />
+<lang id="adv 80211HDisableDescribenote" string="(only in A band)" />
+<lang id="adv Apply" string="Apply" />
+<lang id="adv Cancel" string="Cancel" />
+<!--add-->
+<lang id="adv APDSEnable" string="Enable" />
+<lang id="adv APDSDisable" string="Disable" />
+
+</langage>

@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Verizon Fivespot</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Pragma" content="no-cache">
+<meta content="MSHTML 6.00.2900.3086" name="GENERATOR">
+<link href="style/gui.css" type="text/css" rel="stylesheet">
+<script language="JavaScript" src="js/lang.js"></script>
+<script language="JavaScript" src="js/protect.js"></script>
+<script type="text/javascript">
+Butterlate.setTextDomain("main");
+function initTranslation()
+{
+	var e = document.getElementById("noauthentication_prompt");
+			e.innerHTML = Get_string('Noauthentication Prompt');
+	var e = document.getElementById("noauthentication_info");
+			e.innerHTML = Get_string('Noauthentication Info');
+	var e = document.getElementById("noauthentication_button");
+			e.value = Get_string('Noauthentication Button');	
+
+
+}		
+</script>
+</head>
+
+<body bgcolor="white" vlink="#0000cc" alink="#0000cc" link="#0000cc" onLoad="initTranslation();">
+<table height="100%" cellspacing="0" cellpadding="10" width="100%" border="0">
+	<tr>
+		<td valign="top">
+		<table cellspacing="0" cellpadding="0" width="100%" border="0">
+			<tr>
+				<td class="listtopic" colspan="2" id="noauthentication_prompt">Prompt Information</td>
+			</tr>
+		</table>
+		<br>
+		<table cellspacing="0" cellpadding="0" width="100%" border="0">
+			
+			<tr>
+				<td width="100%" valign="top" class="vncellt_top">
+				<p align="center">&nbsp;</p>
+				<p align="center" id="noauthentication_info">Sorry,you can't view this page. please login as Administrator.</p>
+				<p align="center">&nbsp;</p>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<table cellspacing="0" cellpadding="0" width="100%" border="0">
+			<tr>
+				<td valign="bottom">
+				<div align="right">
+					<input id="noauthentication_button" class="btn" type="button" value="continue" name="Submit_Refresh" onclick=history.go(-1)>
+				</div>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

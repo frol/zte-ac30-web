@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<langage>
+<!--the home page's section 1:3G Information -->
+<lang id="Router State Home title" string="Home" />
+<lang id="Router State Home 3G Information" string="3G Information" />
+<lang id="Router State Home 3GInfo Network Provider" string="Network Provider" />
+<lang id="Router State Home 3GInfo Network Type" string="Network Type" />
+<lang id="Router State Home 3GInfo Roam" string="Roam" />
+<lang id="Router State Home 3GInfo Domain" string="Domain" />
+<!--the home page's section 2:WAN Information -->
+<lang id="Router State Home WAN Information" string="WAN Information" />
+<lang id="Router State Home WANInfo PPP Status" string="PPP Status" />
+<lang id="Router State Home WANInfo IP Address" string="IP Address" />
+<lang id="Router State Home WANInfo Primary DNS" string="Primary DNS" />
+<lang id="Router State Home WANInfo Secondary DNS" string="Secondary DNS" />
+<!--the home page's section 3:WLAN Current Status -->
+<lang id="Router State Home WLAN Current Status" string="WLAN Current Status" />
+<lang id="Router State Home WLANStat SSID" string="SSID" />
+<lang id="Router State Home WLANStat Channel" string="Channel" />
+<lang id="Router State Home WLANStat Security Level" string="Security Level" />
+<!--the home page's section 4:LAN and WLAN Information -->
+<lang id="Router State Home LW Information" string="LAN and WLAN Information" />
+<lang id="Router State Home LWInfo IP Address" string="IP Address" />
+<lang id="Router State Home LWInfo Subnet Mask" string="Subnet Mask" />
+<lang id="Router State Home LWInfo Default Gateway" string="Default Gateway" />
+<lang id="Router State Home LWInfo DHCP Server" string="DHCP Server" />
+<!--home page's original innerhtml-->
+<lang id="Router State Home Unknown" string="Unknown" />
+<lang id="Router State Home Disable" string="Disable" />
+<lang id="Router State Home Enable" string="Enable" />
+<lang id="Router State Home WPA" string="WPA with Radius" />
+<lang id="Router State Home WPA2" string="WPA2 with Radius" />
+<lang id="Router State Home ON" string="ON" />
+<lang id="Router State Home OFF" string="OFF" />
+
+
+<!--the WAN Connection page -->
+<lang id="index Quick Setup" string="Quick Setup" />
+<lang id="WAN Connection" string="WAN Connection" />
+<lang id="WAN Connection PPP Mode" string="PPP Connection Mode" />
+<lang id="WAN Connection Auto Connect" string="Auto Connect" />
+<lang id="WAN Connection On Demand Connect" string="On Demand Connect" />
+<lang id="WAN Connection Manual Connect" string="Manual Connect" />
+<lang id="WAN Connection Manual Connect Internet" string="Connect Internet" />
+<lang id="WAN Connection Manual Disconnect Internet" string="Disconnect Internet" />
+<lang id="WAN Connection PPP Status" string="PPP Connection Status" />
+<lang id="WAN Connection Apply" string="Apply" />
+<lang id="WAN Connection Disconnected" string="Disconnected" />
+<lang id="WAN Connection OnDemand" string="OnDemand" />
+<lang id="WAN Connection Connected" string="Connected" />
+<lang id="WAN Connection Disconnecting" string="Disconnecting" />
+<lang id="WAN Connection Connecting" string="Connecting" />
+<lang id="WAN Connection Idle Time" string="Max Idle Time:" />
+<lang id="WAN Connection Idle Time Minutes" string="minutes" />
+
+<!--the pin page -->
+<lang id="Home Pin" string="PIN" />
+<lang id="Home Verify Pin" string="Verify PIN" />
+<lang id="Home Pin remain time" string=" " />
+<lang id="Home Pin remain time 2" string=" time(s) remaining for you to input PIN!" />
+
+<lang id="Home Pin Save" string="PIN Save" />
+<lang id="Home Pin Save Disable" string="Disable" />
+<lang id="Home Pin Save Enable" string="Enable" />
+<lang id="Home Save Pin Code" string="save" />
+<!--<lang id="HomePinApply" string="Apply" />--><!--can reuse the WAN Connection page's button-->
+
+<!--the puk page -->
+<lang id="Home PUK" string="PUK" />
+<lang id="Home Verify PUK" string="Verify PUK" />
+<lang id="Home PUK New PIN" string="New PIN" />
+<lang id="Home PUK Confirm New PIN" string="Confirm New PIN" />
+<lang id="Home PUK remain time" string=" " />
+<lang id="Home PUK remain time 2" string=" time(s) remaining for you to input PUK!" />
+<!--<lang id="Home PUK Apply" string="Apply" />--><!--can reuse the WAN Connection page's button-->
+
+<!--the no_modem page -->
+<lang id="Home No Modem Inserted" string="No Modem Inserted!" />
+<lang id="Home No Modem Inserted Refresh" string="Refresh" />
+
+<!--the no_sim page -->
+<lang id="Home No Sim Prompt Information" string="Prompt Information" />
+<lang id="Home No SIMCard Inserted" string="No (U)SIM Card Inserted" />
+<!--<lang id="Home No SIMCard Inserted Refresh" string="Refresh" />--><!--can reuse the no_modem page's button-->
+
+<!--the unlock page -->
+<lang id="Home The Network is locked" string="The Network is locked!" />
+<lang id="Home unlock input key" string="Please input key to unlock the Network:" />
+<lang id="Home unlock remain time" string=" " />
+<lang id="Home unlock remain time 2" string=" time(s) remaining to input the key now." />
+<!--<lang id="Home unlock Apply" string="Apply" />--><!--can reuse the WAN Connection page's button-->
+
+<!--index menu -->
+<lang id="index Router State" string="Router State" />
+<lang id="index WAN Connection" string="WAN Connection" />
+<lang id="index 3G Settings" string="3G Settings" />
+<lang id="index Router" string="Router" />
+<lang id="index Wi-Fi Setting" string="Wi-Fi Setting" />   
+<lang id="index Firewall" string="Firewall" />
+<lang id="index Advanced" string="Advanced" />
+<lang id="index Logout" string="Logout" />
+<lang id="index 3G Wireless Router" string="3G Wireless Router" />
+<lang id="index webGUI Configuration" string="webGUI Configuration" />
+<lang id="index Copyright" string="Copyright (c) 1998-2010 ZTE Corporation. All rights reserved" />
+
+<!--login page -->
+<!-- modified by huojianlei for AC30 2010-2-11 begin-->
+<lang id="Login Welcome" string="Welcome to ZTE AC30" />
+<!-- modified by huojianlei for AC30 2010-2-11 end-->
+<lang id="Login USER NAME" string="User Name : " />
+<lang id="Login Password" string="Password :" />
+<lang id="Login Error" string="User Name or Password is error!" />
+<lang id="Login Button" string="Login" />
+<lang id="Login Clear" string="Clear" />
+<lang id="Login Copyright" string="Copyright (c) 1998-2010 ZTE Corporation. All rights reserved" />
+<lang id="Login Save" string="Save" />
+
+<!--message page-->
+<!--login page -->
+<lang id="MSG_PASSWORD_ERROR" string="Sorry,your passwd is error!" />
+<lang id="MSG_CONN2INTERNET_VOIP" string="Please connect to internet if you want to use VOIP phone!" />
+<lang id="MSG_HANGUP_PHONE_USESIP" string="You are using the phone, please handup first if you want registrar SIP server!" />
+<lang id="MSG_PPP_ALREADY_CONNECTED_ONDEMAND" string="You already connect the internet[OnDemand Status]!" />
+<lang id="MSG_PPP_CONNECT_FAILED" string="PPP connect failed, please dial again later." />
+<lang id="MSG_PPP_ALREADY_CONNECTED" string="You had connected to the internet already!" />
+<lang id="MSG_GATEWAY_ERROR_STATE" string="Gateway in error status!" />
+<lang id="MSG_REBOOT_ERROR" string="reboot error! Please try later or put power off and powe on." />
+<lang id="Message_Continue" string="Continue" />
+
+<lang id="PRL_UPDATE_PPP_DOING" string="PPP programming in progress, please updata PRL again later." />
+<lang id="ACTIVE_PPP_DOING" string="PPP programming in progress, please activate again later." />
+
+<!--no authentication page -->
+<lang id="Noauthentication Prompt" string="Prompt Information" />
+<lang id="Noauthentication Info" string="Sorry,you can't view this page. please login as Administrator." />
+<lang id="Noauthentication Button" string="Continue" />
+<!--Logout confirm-->
+<lang id="Logout confirm" string="Do you confirm to logout?" />
+</langage>

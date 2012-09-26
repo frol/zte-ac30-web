@@ -1,0 +1,149 @@
+body{                                                                           
+        margin:0;                                                               
+        padding:0;                                                              
+        left:0;                                                                 
+        right:0;                                                                
+        top:0;                                                                  
+        bottom:0;                                                               
+        width:100%;                                                             
+        height:100%;                                                            
+        font-family: Arial,Times;                                               
+        background-color:#DDE4FB;                                               
+}                                                                               
+#logo{                                                                          
+        height:79px;                                                            
+        width:100%;                                                             
+        margin:0;                                                               
+        padding:0;                                                              
+        left:0;                                                                 
+        right:auto;                                                             
+        top:0;                                                                  
+        bottom:0;                                                               
+        text-align:left;                                                        
+        float:left;                                                             
+        background-color:#ADADE3;                                               
+}                                                                               
+#logo TABLE TD{                                                                 
+     top:0;                                                                     
+         bottom:0;                                                              
+         margin:0 0 0 0;                                                        
+         padding:0 0 0 0;                                                       
+         vertical-align:bottom;                                                 
+         font-size:11px;                                                        
+         border:0px solid #00FF33;                                              
+                                                                                
+}                                                                               
+#logo .SignalText{                                                              
+        padding:0 0 10px 3px;                                                   
+        margin:auto auto auto auto;                                             
+        text-align:left;                                                        
+        height:auto;                                                            
+}                                                                               
+#logo .SignalImage{                                                             
+        padding:0 1px 11px 0;                                                   
+        margin:auto auto auto auto;                                             
+        text-align:left;                                                        
+}                                                                               
+#logo .TitleText{                                                               
+        padding:0 0 10px 0;                                                     
+        margin:auto auto auto auto;                                             
+        text-align:left;                                                        
+    color:White;                                                                
+    font-family:Arial;                                                          
+    font-size:18pt;                                                             
+}                                                                               
+/*#head{                                                                        
+        height:80px;                                                            
+        width:100%;                                                             
+        margin:0;                                                               
+        padding:0;                                                              
+        left:0;                                                                 
+        right:auto;                                                             
+        top:0;                                                                  
+        bottom:auto;                                                            
+                                                                                
+}                                                                               
+#conn{                                                                          
+        height:30px;                                                            
+        width:990px;                                                            
+        line-height: 30px;                                                      
+        margin:0 0 0 0;                                                         
+        padding:0 30px 0 0;                                                     
+        left:0;                                                                 
+        right:0;                                                                
+        top:0;                                                                  
+        bottom:auto;                                                            
+        text-align:right;                                                       
+        background-color:red;                                                   
+}                                                                               
+*/                                                                              
+#footer{                                                                        
+        height:100%;                                                            
+        width:100%;                                                             
+        margin:0;                                                               
+        padding:0 0 0 0;                                                        
+        left:0;                                                                 
+        right:0;                                                                
+        top:0;                                                                  
+        bottom:0;                                                               
+        text-align: center;                                                     
+    vertical-align:middle;                                                      
+        /*background-image: url(../images/footer-1.gif);*/                      
+        background-color:#554FA7;                                               
+        font-size:9pt;                                                          
+        color:#FFFFFF;                                                          
+        line-height:200%;                                                       
+}                                                                               
+                                                                                
+                                                                                
+/*menu-------------------------------------------------------*/                 
+                                                                                
+ul {                                                                            
+        list-style: none;                                                       
+        margin: 0;                                                              
+        padding: 0;                                                             
+        height:auto;                                                            
+        }                                                                       
+                                                                                
+img {                                                                           
+    border: none;                                                               
+}                                                                               
+                                                                                
+#menu                                                                           
+{                                                                               
+    width: 100%;                                                                
+    height: 100%;                                                               
+    margin: 0;                                                                  
+    left: auto;                                                                 
+    right: auto;                                                                
+    top: 0;                                                                     
+    bottom: 0;                                                                  
+    padding: 0 0 0 0;                                                           
+    border-style: none none none none;                                          
+    border-color: #BCD2E6;                                                      
+    border-width: 0px;                                                          
+    font-size: 11pt;                                                            
+    background-color: #DCDCF4;                                                  
+    text-indent: 5pt;                                                           
+    font-family: Arial, Helvetica;                                              
+    font-weight: bold;                                                          
+}                                                                               
+#menu li                                                                        
+{                                                                               
+    height: 24px;                                                               
+    width: auto;                                                                
+    margin:0px 0px 0px 0px;/*Mozilla*/                                          
+    padding: 10px 0px 0px 10px;/*Mozilla*/                                      
+    +margin:0px 0px 0px 0px;/*IE7*/                                             
+    +padding: 8px 0px 8px 10px;/*IE7*/                                          
+    _margin:0px 0px 0px 0px;/*IE6*/                                             
+    _padding: 8px 0px 8px 10px;/*IE6*/                                          
+        border:solid 0px red;                                                   
+}                                                                               
+#menu li a ,#menu li a:link , #menu li a:visited , #menu li a:hover             
+{                                                                               
+    display: block;                                                             
+        font-size:11pt;                                                         
+        text-decoration: none;                                                  
+}                                                                               
+/*************************************************************/ 

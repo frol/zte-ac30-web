@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<langage>
+<!-- this is common section button for firewall button-->
+  <lang id="firewall disable" string="Disable" />
+  <lang id="firewall enable" string="Enable" />
+  <lang id="firewall apply" string="Apply" />
+  <lang id="firewall reset" string="Reset" />
+  <lang id="firewall del select" string="Delete Selected" />
+  <lang id="firewall no" string=" No." />
+  <lang id="firewall protocol" string="Protocol" />
+  <lang id="firewall comment" string="Comment" />
+  <lang id="firewall default drop" string="Others would be dropped" />
+  <lang id="firewall default accept" string="Others would be accepted" />
+  
+ <!-- this is common section for secondary title-->
+ <lang id="firewall Title PortFilter" string="&#8226; Mac/Ip/Port Filtering" />
+ <lang id="firewall Title URLFilter" string="&#8226;URL Filtering" />
+ <lang id="firewall Title PortForward" string="&#8226;Port Forwarding" />
+ <lang id="firewall Title DMZ" string="&#8226;DMZ" />
+ <lang id="firewall Title Sys" string="&#8226;System Security" />
+ 
+  <!-- this is common section for port filter(port_filter.asp)-->  
+  <lang id="port title" string="Firewall-->Mac/Ip/Port Filtering" />
+  <lang id="port basic default policy" string="Default Policy -- The packet that doesn't match with any rules would be:" />
+  <lang id="port basic settings" string="Basic Settings" />
+  <lang id="port basic filter" string="MAC/IP/Port Filtering" />
+  <lang id="port basic default policy accepted" string="Accepted" />
+  <lang id="port basic default policy dropped" string="Dropped" />
+  <lang id="port filter setting" string="MAC/IP/Port Filter Settings" />
+  <lang id="port filter macaddr" string="MAC address" />
+  <lang id="port filter source ipaddr" string="Source IP Address" />
+  <lang id="port filter port range" string="Port Range" />
+  <lang id="port filter dest ipaddr" string="Dest IP Address" />
+  <lang id="port filter action" string="Action" />
+  <lang id="port filter action drop" string="Drop" />
+  <lang id="port filter action accept" string="Accept" />
+  <lang id="port current filter" string="Current MAC/IP/Port filtering rules in system: " />
+  <lang id="port filter source port range" string="Source Port Range" />
+  <lang id="port filter dest port range" string="Dest Port Range" />
+  <lang id="port filter packetcount" string="Pkt Cnt" />
+
+  <!-- this is common section for port Forward(port_forward.asp)-->  
+  <lang id="forward title" string="Firewall-->Port Forwarding" />
+  <lang id="forward virtual servers" string="Virtual Server Settings" />
+  <lang id="forward virtual server setting" string="Virtual Server Settings" />
+  <lang id="forward virtual server ipaddr" string="IP Address" />
+  <lang id="forward virtual server port range" string="Port Range" />
+  <lang id="forward current virtual server" string="Current Virtual Servers in system: " />
+  
+<!-- this section is for advanced (DMZ.asp)-->
+  <lang id="dmz title" string="Firewall--&gt;DMZ" />
+  <lang id="dmz settings" string="DMZ Settings" />
+  <lang id="dmz ipaddr" string="DMZ IP Address" />
+  <lang id="firewall disable" string="Disable" />
+  
+<!-- this section is for advanced (content_filtering.asp)-->
+  <lang id="content filter title" string="Content Filter Settings" />
+  <lang id="content filter webs content filter" string="Webs Content Filter" />
+  <lang id="content filter webs content filter filter" string="Filters:" />
+  <lang id="content filter webs content filter apply" string="Apply" />
+  <lang id="content filter webs content filter reset" string="Reset" />
+  <lang id="content filter webs URL filter title" string="Webs URL Filter Settings" />
+  <lang id="content filter webs url filter current" string="Current Webs URL Filters:" />
+  <lang id="content filter webs url fitler No" string="No" />
+  <lang id="content filter webs url fitler url" string="URL" />
+  <lang id="content filter webs url fitler del" string="Delete" />
+  <lang id="content filter webs url fitler reset" string="Reset" />
+  <lang id="content filter webs url fitler add title" string="Add a URL filter:" />
+  <lang id="content filter webs url fitler add" string="Add" />
+  <lang id="content filter webs url fitler reset" string="Reset" />
+  <lang id="content filter webs host fitler title" string="Webs Host Filter Settings" />
+  <lang id="content filter webs host fitler current" string="Current Website Host Filters:" />
+  <lang id="content filter webs host fitler no" string="No" />
+  <lang id="content filter webs host fitler host" string="Host(Keyword)" />
+  <lang id="content filter webs host fitler del" string="Delete" />
+  <lang id="content filter webs host fitler reset" string="Reset" />
+  <lang id="content filter webs host fitler add title" string="Add a Host(keyword) Filter:" />
+  <lang id="content filter webs host fitler keyword" string="Keyword" />
+  <lang id="content filter webs host fitler add" string="Add" />
+  <lang id="content filter webs host fitler reset" string="Reset" />
+
+	<!-- this section is for advanced (system_firewall.asp)-->
+  <lang id="sysfw title" string="System Security Settings" />
+  <lang id="sysfw remote management title" string="Remote management" />
+  <lang id="sysfw remote management head" string="Remote management (via WAN)" />
+  <lang id="sysfw allow" string="Allow" />
+  <lang id="sysfw deny" string="Deny" />
+  <lang id="sysfw wanping title" string="Ping from WAN Filter" />
+  <lang id="sysfw wanping head" string="Ping from WAN Filter" />
+  <lang id="sysfw apply" string="Apply" />
+  <lang id="sysfw reset" string="Reset" />
+
+	<!-- this section is for example-->
+	<lang id="example IP" string=" (XXX.XXX.XXX.XXX, eg:192.168.5.101)" />
+	<lang id="example MAC" string=" (XX:XX:XX:XX:XX:XX, eg:00:1E:90:FF:FF:FF)" />
+	<lang id="maximum desc" string=" The maximum rule count is 10." />
+	<lang id="example url" string=" ( eg: www.zte.com)" />
+		
+
+	<lang id="rule same with default" string="The action of this rule would be the same with default policy." />
+	<lang id="The rule number is exceeded" string="The rule number is exceeded" />
+	<lang id="Please select the rule" string="Please select the rule to be deleted." />
+		
+		
+</langage>

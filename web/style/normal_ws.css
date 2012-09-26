@@ -1,0 +1,457 @@
+BODY {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	background-image:url(../img/iframe_content_bg.png);
+	background-repeat:repeat-x;
+}
+TH {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+INPUT {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+SELECT {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+A {
+	TEXT-DECORATION: none;
+	color:#F00
+}
+p {
+  font-size: 9pt; 
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 14pt; font-weight: bold;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#0088C6;
+}
+
+h2 {
+	font-size: 12pt; font-weight: bold;
+; margin-left: 10px
+; font-family: Arial, Helvetica, sans-serif; color: #0066CC
+}
+
+h3 {
+  font-size: 10pt; font-weight: bold;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif; color: #0066CC
+}
+
+h4 {
+  font-size: 9pt; font-weight: bold; ; margin-left: 10px ; font-family: Arial, Helvetica, sans-serif; color: #0066CC
+}
+
+pre {
+  line-height: normal;
+  color: #0A0A8C;
+font-family: "Courier New", Courier, mono; font-size: 9pt; margin-left: 10px; background-color: #EEEEEE; padding-left: 20px
+; padding-top: 5px; padding-bottom: 5px; padding-right: 20px
+}
+
+.msg {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #ffffff; FONT-FAMILY: Arial, Geneva,Helvetica, sans-serif
+}
+
+.mainTable {
+  border: 0px;
+  width: 980px;
+  text-align:center;
+}
+
+TD {
+	FONT-SIZE: 11px; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+
+td.title {
+	font-size: 16px;
+	PADDING-LEFT: 10px;
+	PADDING-BOTTOM: 4px;
+  margin-left: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+  color:#FFFFFF;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+td.subtitle {
+  background-color: #3C6EB4;
+  font-style: italic;
+  color: #FFFFFF
+}
+
+td.head {
+	font-size: 12px;
+	PADDING-RIGHT: 20px;
+	PADDING-LEFT: 8px;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	color: #000000;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;	
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #000000;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+td.head_content {
+	font-size: 12px;
+	PADDING-RIGHT: 20px;
+	PADDING-LEFT: 8px;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	color: #FF0000;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+td.head_content_2 {
+	font-size: 12px;
+	PADDING-RIGHT: 20px;
+	PADDING-LEFT: 8px;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	color: #000000;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+td.head_top {
+	font-size: 12px;
+	PADDING-RIGHT: 20px;
+	PADDING-LEFT: 8px;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	color:#000000;
+	border-top-color:#000000;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;	
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #000000;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+td.head_left_top {
+	font-size: 12px;
+	PADDING-RIGHT: 20px;
+	PADDING-LEFT: 8px;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	color:#000000;
+	border-top-color:#000000;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;	
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+td.head_top_content {
+	font-size: 12px;
+	PADDING-RIGHT: 20px;
+	PADDING-LEFT: 8px;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	color:#FF0000;
+	border-top-color:#000000;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+td.head1 {
+	PADDING-RIGHT: 20px;
+	PADDING-LEFT: 8px;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	color: #0088C6;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: 0095D9;	
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: 0095D9;
+	border-bottom-color: #0095D9;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+td.head2 {
+	PADDING-RIGHT: 20px;
+	PADDING-LEFT: 8px;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	color: #0088C6;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: 0095D9;
+	border-bottom-color: #0095D9;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+td.head3 {
+	PADDING-RIGHT: 20px;
+	PADDING-LEFT: 8px;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;	
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #000000;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+td.head1_top {
+	PADDING-RIGHT: 20px;
+	PADDING-LEFT: 8px;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	color: #0088C6;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: 0095D9;	
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: 0095D9;
+	border-bottom-color: #0095D9;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #0095D9;
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+
+td.head2_top {
+	PADDING-RIGHT: 20px;
+	PADDING-LEFT: 8px;
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	color: #0088C6;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: 0095D9;
+	border-bottom-color: #0095D9;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #0095D9;
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+
+/*
+td.head_filter {
+  width: 5%;
+  font-size: 9pt; 
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #E8F8FF;
+  color: #333333
+}
+*/
+
+td.tail {
+	PADDING-RIGHT: 16px;
+	PADDING-LEFT: 6px;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+}
+
+td.tail_top {
+	PADDING-RIGHT: 16px;
+	PADDING-LEFT: 6px;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-top-color: #FFFFFF;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+ol {
+  margin-left: 40px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 9pt
+}
+
+ul {
+  font-size: 9pt; ; margin-left: 30px; font-family: Arial, Helvetica, sans-serif; color: #333333
+}
+
+.btn {
+BORDER-RIGHT: #7b9ebd 1px solid; 
+PADDING-RIGHT: 2px; 
+BORDER-TOP: #7b9ebd 1px solid; 
+PADDING-LEFT: 2px; 
+BORDER-LEFT: #7b9ebd 1px solid; 
+CURSOR: hand; 
+COLOR: black; 
+PADDING-TOP: 2px; 
+BORDER-BOTTOM: #7b9ebd 1px solid; 
+FONT-SIZE: 12px; 
+FILTER: 
+progid:DXImageTransform.Microsoft.Gradient(GradientType=0, 
+StartColorStr=#eeeeee, EndColorStr=#ecf7ff);
+}
+
+.navlnk {
+	FONT-SIZE: 13px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.navlnks {
+	FONT-SIZE: 11px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tblnk {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.vncellreq {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 8px; FONT-WEIGHT: bold; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #dddddd
+}
+.cpline {
+	FONT-SIZE: 11px; COLOR: #ffffff
+}
+
+.listtopic {
+	PADDING-RIGHT: 16px;
+	PADDING-LEFT: 6px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 18px;
+	PADDING-BOTTOM: 5px;
+	COLOR: #FF0000;
+	PADDING-TOP: 5px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #191919;
+	background-color: #191919;
+}
+.unselectedMenu {
+	PADDING-RIGHT: 12px;
+	PADDING-LEFT: 6px;
+	FONT-SIZE: 14px;
+	PADDING-BOTTOM: 3px;
+	FONT-WEIGHT: bold;
+	COLOR: #F00;
+	PADDING-TOP: 3px;
+	font-family:Arial;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000;
+	background-color: #000;
+}
+
+.selectedMenu {
+	PADDING-RIGHT: 12px;
+	PADDING-LEFT: 6px;
+	FONT-SIZE: 14px;
+	PADDING-BOTTOM: 3px;
+	FONT-WEIGHT: bold;
+	COLOR:#FFFFFF;
+	PADDING-TOP: 3px;
+	font-family:Arial;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FF0000;
+	background-color:#FF0000;
+}
+
+.hintMsg {
+	PADDING-LEFT: 6px;
+	padding-top: 3px;
+	FONT-SIZE: 12px;
+	color:#FFFFFF;
+}
+
+.list_content {
+	font-size: 12px;
+	PADDING-RIGHT: 20px;
+	PADDING-LEFT: 8px;
+	FONT-FAMILY: Arial;
+	PADDING-BOTTOM: 4px;
+	PADDING-TOP: 4px;
+	BACKGROUND-COLOR: #FFFFFF;
+	color:#FF0000;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;	
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #000000;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}

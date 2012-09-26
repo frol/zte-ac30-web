@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<langage>
+  	<lang id="dmz setting" string="You may setup a De-militarized Zone(DMZ) to separate internal network and Internet." />
+	<lang id="port basic setting" string="You may setup firewall rules to protect your network from virus,worm and malicious activity on the Internet." />
+	<lang id="forward virtual server" string="You may setup Virtual Servers to provide services on Internet." />
+	<lang id="sysfw remote management title" string="You may configure the system firewall to protect AP/Router itself from attacking." />
+	<lang id="content filter webs url filter current" string="You can setup Content Filter to restrict the improper content access." />
+	
+	<!--lan.asp page toptips-->
+	<lang id="Router Lan Sub Title"   string="You can setup LAN interface here." />
+	<lang id="Router Lan IP Address"  string="You can modify the IP address of LAN interface." />
+	<lang id="Router Lan Subnet Mask" string="If you modify the LAN IP address, you can modify the subnet mask together." />
+	<lang id="Router Lan MAC Address" string="The MAC address of LAN interface." />
+	<lang id="Router Lan DHCP Type"   string="By default, the gateway is set up as a Dynamic Host Configuration Protocol (DHCP) server, which provides IP address in IP Pool Range for all PCs connected to the LAN. If you shut down the DHCP server, you must have another DHCP server in the LAN; otherwise you have to manually configure IP addresses for PCs." />
+	<lang id="Router Lan DHCP Pool"   string="The DHCP server allocates IP addresses from this pool. Please make sure that the first address must be smaller than the second one in numeric value and these two addresses must be in your LAN subnet." />
+	<lang id="Router Lan DHCP Lease"  string="This is the time the DHCP server must wait for before it re-allocates the allocated IP address. If most of the clients are temporary, the DHCP lease time should not be too long." />
+	<lang id="Router Lan UPNP"        string="You can enable or disable UPNP(Universal Plug and Play) function here." />
+	
+	<!--dhcpcliinfo.asp page toptips-->
+	<lang id="Router DHCP Clients Title"   string="You can veiw the DHCP clients's information here. Click the Refresh to get the latest list." />
+	
+	<!-- net_select.asp -->
+	<lang id="3G NS TT WCDMA Preferred"   string="Gateway searches for WCDMA network and GSM network automatically." />
+	<lang id="3G NS TT Only WCDMA"   string="Gateway searches for only WCDMA network." />
+	<lang id="3G NS TT Only GSM"   string="Gateway  searches for only GSM network." />
+	
+	<!-- multi_apn.asp -->	
+	<lang id="3G APN TT Current Status"   string="It shows some parameters in the profile that set as default currently." />
+	<lang id="3G APN TT Profile Select"   string="You can see all the profile names in this item." />
+	<lang id="3G APN TT Profile Name"   string="The name of your profile." />
+	<lang id="3G APN TT ANP Set"   string="If a fixed APN (Access Point Node) is given by your ISP, select Manual APN, otherwise, select  Auto APN , and the gateway will automatically obtains these parameters." />
+	<lang id="3G APN TT Dial NO"   string="Dial No. is used for data service connections." />
+	<lang id="3G APN TT PDP Type"   string="Packet Data Protocol Type. IP is recommended unless the network provider instructs other ways." />
+	<lang id="3G APN TT PDP Set"   string="If a fixed IP address is given by your ISP, select Manual PDP, otherwise, select Auto PDP , and the gateway will automatically obtains these parameters." />
+	<lang id="3G APN TT DNS"   string="If a fixed IP address is given by your ISP, select Manual DNS, otherwise, select Auto DNS , and the gateway will automatically obtains these parameters." />
+	<lang id="3G APN TT Primary DNS"   string="The IP address of primary Domain Name Server." />
+	<lang id="3G APN TT Secondary DNS"   string="The IP address of the secondary Domain Name Server." />
+	<lang id="3G APN TT Authentication"   string="Password Authentication Protocol (PAP): It provides a simple method without encryption for the peer to establish its identity using a 2-way handshake. Challenge-Handshake Authentication Protocol (CHAP): It is used to periodically verify the identity of the peer using a 3-way handshake." />
+	<lang id="3G APN TT User Name"   string="User Name and Password are used to obtain authentication from the ISP when the connection is established." />
+	<lang id="3G APN TT Password"   string="User Name and Password are used to obtain authentication from the ISP when the connection is established." />
+	
+	<!--net connect toptip-->
+  	<lang id="WAN Connection Auto Connect" string="When PPP connection mode is set to auto connect,the gateway will try to connect the Internet once it's power on." />
+  	<lang id="WAN Connection On Demand Connect" string="The gateway automatically dials to connect internet when you attempt to send data through internet if you select On Demand Connect." />
+  	<lang id="WAN Connection Idle Time" string="The gateway will disconnect from internet if it is detected no data through out in max idle time range.By default,max idle time is set 10 minutes." />
+  	<lang id="WAN Connection Manual Connect" string="The gateway can be controled by  manual connect to internet or disconnect from internet." />
+  	<lang id="WAN Connection PPP Status" string="It show current PPP connection status." />
+	
+	<!-- this is toptip for advanced menu (management.asp)-->
+	<lang id="adv management tip for account" string="You may configure administrator account and password,Please input the new account." />
+	<lang id="adv management tip for passwd" string="You may configure administrator account and password,Please input the new password." />
+	
+	<!-- this is toptip for advanced menu (upload_firmware.asp)-->
+  	<lang id="adv upgrade tip for upload firmware" string="Firmware Upgrade:Please specify a file." />
+  	
+  	<!-- this is toptip for advanced menu (restore.asp)-->
+    <lang id="adv restore tip" string="Restore Home Gateway to factory default parameter, and the Home Gateway will be restart." />  	
+  	
+  	<!-- this is toptip for advanced menu (shutdown.asp)-->
+  	<lang id="adv shutdown tip" string="You can turnoff the Home Gateway by webUI remotely, if the Gateway is not around you." />
+
+  	<!-- this is toptip for advanced menu (pin_management.asp)-->
+  	<lang id="adv pinm tip for pin manage" string="You can enable, disable or modify the PIN code here." />
+  	<lang id="adv pinm tip for pin status" string="Current PIN code status, disabled or enabled." />
+  	<lang id="adv pinm tip for pin action" string="Select your action to manage PIN code." />
+  	<lang id="adv pinm tip for pin" string="Please input the current PIN code." />
+  	<lang id="adv pinm tip for newpin" string="Please input the new PIN code you want to set." />
+  	<lang id="adv pinm tip for confirm newpin" string="Please confirm you new PIN code." />
+  	<!--added by huojianlei 20100316 begin-->
+  	<!-- this is toptip for advanced menu (modemlockmanage.asp)-->
+  	<lang id="adv pinm tip for mlock manage" string="You can enable, disable or modify the modem lock code here." />
+  	<lang id="adv pinm tip for mlock status" string="Current modem lock code status, disabled or enabled." />
+  	<lang id="adv pinm tip for mlock action" string="Select your action to manage modem lock code." />
+  	<lang id="adv pinm tip for mlock" string="Please input the current modem lock code." />
+  	<lang id="adv pinm tip for newmlock" string="Please input the new modem lock code you want to set." />
+  	<lang id="adv pinm tip for confirm newmlock" string="Please confirm you new modem lock code." />
+	<!--added by huojianlei 20100316 end-->
+
+<!--  this section is for wifi stationlist (stationlist.asp) -->
+<lang id="stalist Station" string="Here shows the information of stations that connected with the AP." />
+	
+<!--  this section is for wifi wps (wps.asp) -->
+<lang id="wps WPS_text" string="Disable or Enable the WPS feature." />
+<lang id="wps Mode_text" string="Select PCB or PIN WPS mode.You must click the apply button to save and apply the current mode" />
+<lang id="wps PINNum_text" string="Enter the PIN code from the registrar or enrollee."/>
+
+
+<!--  this section is for wifi security (security.asp) -->
+<lang id="secure SecureMode" string="Unless one of these encryption modes is selected, wireless transmissions to and from your wireless network can be easily intercepted and interpreted by unauthorized users." />
+<lang id="secure EncrypType" string="You can use WEP Encryption or none." />
+<lang id="secure WEPDefaultKey" string="Select to use the WEP key value of 1, 2, 3 or 4." />
+<lang id="secure WEPKey" string="Select ASCII or Hex to setup the key value." />
+<lang id="secureWPA Algorithm" string="Mark the option to enable modes of TKIP, AES,or AUTO." />
+<lang id="secureWPA PassPhrase" string="Enter a pass phrase encryption key format(8~32 bytes)." />
+<lang id="secureWPA Key Renew Interval" string="Enter a value to setup the WPA key renewal interval. The device regenerates the key in every interval seconds that you have setup without disconnection." />
+<lang id="secure WPA PMKCachePeriod" string="wireless client includes a PMK identifier that was determined during the initial authentication and stored with both the wireless client and wireless AP PMK cache entries. These entries are stored for a finite amount of time, which are then used for re-authentication process." />
+<lang id="secure WPAPreAuth" string="Preauthentication is a process through which a wireless client has an option to perform 802.1X authentication with another wireless AP in its range, while itself already connected to its current AP." />
+<lang id="wifi securitymacfilter" string="Choose the type of MAC filtering needed.Turn MAC Filtering Disable: When you select the disable, MAC addresses are not used to control network access." />
+<lang id="wifi securitymacaddress" string="add MAC addresses to the Rule list." />
+<lang id="secure RadiusIPAddr" string="The IP address of the authentication server." />
+<lang id="secure RadiusPort" string="The port number used to connect to the authentication server." />
+<lang id="secure RadiusSharedSecret" string="A pass-phrase that must match with the authentication server." />
+<lang id="secure RadiusSessionTimeout" string="Amount of time before a client will be required to re-authenticate." />
+<lang id="secure RadiusIdleTimeout" string="User will logout when idle timeout expired." />
+<lang id="secure1X WEP" string="Select Disable WEP or Enable WEP." />
+
+<!--  this section is for wifi advanced (advanced.asp) -->
+<lang id="adv BeaconInterval" string="Beacons are packets sent by an access point to synchronize a wireless network. Specify a beacon interval value. Default (100ms) is recommended." />
+<lang id="adv DTIM" string="Enter a value between 1 and 255 (default 1) for the Delivery Traffic Indication Message (DTIM). A DTIM is a countdown informing clients of the next window for listening to broadcast and multicast messages." />
+<lang id="adv Frag" string="This value should remain at its default setting of 2346. If you experience a high packet error rate, you may slightly increase your fragmentation threshold within the value range of 256 to 2346. Setting the fragmentation threshold too low may result in poor performance." />
+<lang id="adv RTS" string="Request To Send threshold. This value should remain at its default setting of 2347. If you encounter inconsistent data flow, only minor modifications to the value range between 1 and 2347 are recommended.TX Power: Transmit power. You can set the output power of wireless radio. This value should remain at its default setting of 100." />
+<lang id="adv TxPW" string="Transmit power. You can set the output power of wireless radio. This value should remain at its default setting of 100." />
+<lang id="adv ShortPre" string="The length of CRC block in the frames during the wireless communication." />
+<lang id="adv ShortSlot" string="Indicates that the 802.11g network is using a short slot time because there are no legacy (802.11b) stations present." />
+<lang id="adv TxBurst" string="Allows the wireless Router to deliver better throughput in the same period and environment in order to increase speed." />
+<lang id="adv PktAggr" string="Increase efficiency by aggregating multiple packets of application data into a single transmission frame. In this way, 802.11n networks can send multiple data packets with the fixed overhead cost of just a single frame." />
+<lang id="adv 80211H" string="Select Disable or Enable this function. (Default setting is Disable.)" />
+<lang id="adv CountryCode" string="Select the region you live. Two countries to choose." />
+<lang id="adv WMM" string="This will enhance the data transfer performance of multimedia contents when they are being transferred over wireless network." />
+<lang id="adv APDS" string="Automatic Power Save Delivery. Select to enable or disable data flow using power saving mode during transmitting." />
+
+  	<!---basic.asp page toptips-->
+	<lang id="WIFI Basic Radio OnOff"                string="You can enable or disable the Wi-Fi.All parameters are in effect,When Wi-Fi is on." />
+	<lang id="WIFI Basic Network Mode"               string="If all of the wireless devices you want to connect with this router can connect in the same transmission mode, you can improve performance slightly by choosing the appropriate wireless mode. If you have some devices that use a different transmission mode, choose the appropriate wireless mode. Use the drop down list to select the wireless mode." />
+	<lang id="WIFI Basic Network Name"               string="Service Set Identifier (SSID): Enter a string no more than 32 characters as the name for your wireless local area network (WLAN)." />
+	<lang id="WIFI Basic Broadcast Network Name"     string="Eanble: The gateway broadcasts the SSID and other devices can detect and connect to it.Disabled: The gateway disables broadcasting and hides the name of your network." />
+	<lang id="WIFI Basic AP Isolation"               string="When this feature is enabled, each of your wireless client will not be able to communicate with each other." />
+	<lang id="WIFI Basic BSSID"                      string="Show the MAC address of the wifi" />
+	<lang id="WIFI Basic Frequency"                  string="A wireless network uses specific channels in the wireless spectrum to handle communication between clients. Some channels in your area may have interference from other electronic devices. Choose the clearest channel to help optimize the performance and coverage of your wireless network." />
+	<lang id="WIFI Basic Rate"                       string="The rate selected in Network Mode." />
+	<lang id="WIFI Basic WDS Mode"                   string="Select the mode from the pull-down menu, Disable, Lazy Mode,Bridge Mode or Repeater Mode.(Default WDS mode is Disable.) If the users would like to set up the WDS function, the APs should use the same SSID and Channel then enter Wireless MAC of each other to make the WDS connection." />
+	<lang id="WIFI Basic Phy Mode"                   string="Select the option in the drop-down list to enable CCK,OFDM, HTMIX, or GREENFIELD mode for physical layer transceivers." />
+	<lang id="WIFI Basic Encryp Type"                string="Select the option in the drop-down list to enable WEP, TKIP, and AES encryption types. If you select None, any data will be transmitted without encryption and any station can access the router." />
+	<lang id="WIFI Basic Encryp Key"                 string="cipher" />
+	<lang id="WIFI Basic MAC Address"                string="you have to fill in the WDS AP MAC. You can fill up to 4 sets of WDS AP MAC lists." />	
+	<lang id="WIFI Basic Operating Mode"             string="Select the mixed or green field mode as the operation mode.Mixed Mode: In this mode packets are transmitted with a preamble compatible with the legacy 802.11a/g, the rest of the packet has a new format. In this mode the receiver shall be able to decode both the Mixed Mode packets and legacy packets. Green Field: In this mode high throughput packets are transmitted without a legacy compatible part." />
+	<lang id="WIFI Basic Channel BandWidth"          string="Select the 40Mhz or 20/40Mhz as the channel bandwidth." />
+	<lang id="WIFI Basic Guard Interval"             string="Support Short/Long GI, the purpose of the guard interval is to introduce immunity to propagation delays, echoes and reflections, to which digital data is normally very sensitive." />
+	<lang id="WIFI Basic MCS"                        string="Fix MCS rate for HT rate. The Modulation and Coding Scheme (MCS) is a value that determines the modulation, coding and number of spatial channels." />
+	<lang id="WIFI Basic Reverse Direction Grant"    string="Select Disable or Enable this function. (Default setting is Enable.)" />
+	<lang id="WIFI Basic Extension Channel"          string="You can select any one of the two Channels from the drop-down menu. The Extension channel is also able to send and receive data." />
+	<lang id="WIFI Basic Aggregation MSDU"           string="Mark to enable Hyper Throughput TX Aggregate MAC Service Data Unit, and clear to disable." />
+	<lang id="WIFI Basic Auto Block ACK"             string="Select to block ACK (Acknowledge Number) or not during data transferring." />
+	<lang id="WIFI Basic Decline BA Request"         string="Select to reject peer BA-Request or not." />
+	
+</langage>

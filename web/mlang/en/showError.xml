@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<langage>
+  <lang id="ip addr empty" string="Error. IP address is empty." />
+  <lang id="ip not valid" string="Invalid ip address." />
+  <lang id="dmz ip not valid" string="The DMZ IP is not a valid IP address!" />
+  <lang id="IP format error" string="IP address format error." />
+  <lang id="Not set IP addr" string="Not set an IP address." />
+  <lang id="Invalid MAC addr" string="Invalid MAC address!" />
+  <lang id="Invalid source port" string="Invalid port number: source port." />
+  <lang id="Invalid source port range" string="Invalid source port range setting." />
+  <lang id="Invalid dest port" string="Invalid port number: dest port." />
+  <lang id="Invalid dest port range" string="Invalid dest port range setting." />
+  <lang id="It should be under10" string="It should be a [0-9] number." />
+  <lang id="Not set port range" string="Not set a port range." />
+  <lang id="Not set port" string="Not set a port." />
+  <lang id="Invalid port number" string="Invalid port number." />
+  <lang id="Invalid port range" string="Invalid port range setting." />
+  <lang id="Please enter URL" string="Please enter a URL filter." />
+  <lang id="Please enter IP MAC" string="Please input any IP ,MAC or/and port value." />
+  <lang id="Please enter comment" string="Please input the comment for the rule." />
+  <lang id="comment invalid character" string="Invalid character!" />
+  <lang id="Rule has existed" string="This rule has existed!" />
+  
+  <!--net_connect.asp page showError-->
+  <lang id="WAN Connection idle time" string="The idle time's range in 1-120 minutes,please set the right time." />
+  <!--lan.asp page showError-->
+  <lang id="Router Lan IP Empty"               string="It can not be empty." />
+  <lang id="Router Lan IP Number"              string="It should be a [0-9] number." />
+  <lang id="Router Lan IP Format Error"        string="IP address format error." />
+  <lang id="Router Lan NetMask Invalid"        string="Invalid Netmask Address!" />
+  <lang id="Router Lan DHCP SIP Out Range"     string="DHCP Start IP is not in the range of lan subnet." />
+  <lang id="Router Lan DHCP EIP Out Range"     string="DHCP End IP is not in the range of lan subnet." />
+  <lang id="Router Lan DHCP Pool Error"        string="Invalid start and end IP address, end IP should be larger than start IP." />
+  <lang id="Router Lan DHCP Pool Conflict"     string="IP pool range can not contain lan ip address!" />
+  <lang id="Router Lan DHCP Lease Error"       string="DHCP lease time is invalid! It's should between 1 and 65535!" />
+  
+  <!-- multi_apn.asp -->
+  <lang id="3G APN SE Dial NO Error"               string="Please input the Dial No. rightly!(It may be 0~9 or A,B,C,D,*,#)" />
+  <lang id="3G APN SE NULL APN"               string="APN can't be empty!" />
+  <lang id="3G APN SE NULL DIAL NO"               string="Dial No. can't be empty!" />
+  <lang id="3G APN SE Profile Name Cannot Empty"               string="Profile name can't be empty!" />
+  <lang id="3G APN SE APN Cannot Empty"               string="APN can't be empty!" />
+  <lang id="3G APN SE Profile Name Exist"               string="This profile name has been exist!" />
+  <!--syn from A1 -->
+  <lang id="3G APN PDP Address invalid"               string="PDP Address is invalid !" />
+  <lang id="3G APN Primary DNS invalid"               string="Primary DNS is invalid !" />
+  <lang id="3G APN Secondary DNS invalid"               string="Secondary DNS is invalid !" />
+  <lang id="3G APN SE Invalid Char"               string="There is invalid character in your input." />
+
+  
+  
+  <!-- this is show error for  advanced menu (management.asp)-->
+  <lang id="adv management account error" string="Account error, it must be 0~9, A~Z, a~z or empty!" />
+  <lang id="adv management account reused" string="Account error, it can not be reused!" />
+  
+  <!-- this is show error for  advanced menu (upload_firmware.asp)-->
+  <lang id="adv upgrade file empty" string="Firmware Upgrade:No selected file." />
+  <lang id="adv upgrade file nomatch" string="You do not select the root_uImage!" />
+  <lang id="adv upgrade confirm" string="You really want to update the Image?" />
+  
+  <!-- this is show error for  advanced menu (restore.asp)-->
+  <lang id="adv restore confrim" string="This action will restore the Home Gateway to factory default parameters, and it will turnoff automaticly!" />
+  
+  <!-- this is show error for  advanced menu (shutdown.asp)-->
+  <lang id="adv shutdown confrim" string="Do you really want to shutdown system?" />
+    
+  <!-- this is show error for  advanced menu (pin_management.asp)-->
+  <lang id="adv pinm pin already disabled" string="PIN has already disabled!" />
+  <lang id="adv pinm pin has disabled" string="PIN has disabled!" />
+  <lang id="adv pinm pin already enable" string="PIN has already enable!" />
+  <lang id="adv pinm confirm pin number" string="Please confirm PIN number!" />
+  <lang id="adv pinm pin right" string="Please input PIN rightly!(It must be number and its length is between 4 and 8)" />
+  <lang id="adv pinm confirm newpin" string="Please confirm new PIN number!" />
+  <lang id="adv pinm newpin right" string="Please input New PIN rightly!(It must be number and its length is between 4 and 8)" />
+  <lang id="adv pinm pin and newpin not match" string="New PIN number and Confirm New PIN number don't match!" />
+  <lang id="adv pinm pin last result L1" string="Your final result is management success." />
+  <lang id="adv pinm pin last result L2" string="Your final result is management failed." />
+  <lang id="adv pinm pin remain times" string=" times remaining for you input pin!" />
+  
+  <!--pin page showerror-->
+  <lang id="PIN CODE BLANK" string="Please input PIN number." />
+  <lang id="PIN CODE ERROR" string="Please input  PIN rightly !(It must be number and its length is between 4 and 8)" />
+  <!--puk page showerror-->
+  <lang id="PUK CODE BLANK" string="Please input the PUK." />
+  <lang id="PUK CODE ERROR" string="PUK must be number and its length should be 8." />
+  <lang id="NEWPIN BLANK" string="Please input the New PIN." />
+  <lang id="NEWPIN ERROR" string="PIN must be number and its length between 4 and 8 !" />
+  <lang id="NEWPIN DONT MATCH" string="The New PIN you typed do not match!" />
+  <!--unlock page showerror-->
+  <lang id="UNLOCK BLANK" string="Please input your key to unlock network!" />
+  <lang id="UNLOCK LONG ERROR" string="The length of your key  must  be 16!" />
+  <lang id="UNLOCK CHAR ERROR" string="The key must be 0~9, a~f or A~F!" />
+  
+  <!--basic.asp page showError-->
+  <lang id="WIFI Basic MAC Format Err" string="Please fill WDS remote AP MAC Address in correct format(XX:XX:XX:XX:XX:XX)!" />
+  <lang id="WIFI Basic WDS MAC Empty"  string="WDS remote AP MAC Address are empty!" />
+  
+  <lang id="WIFI Basic Invalid Err"    string="Invalid character!" />
+  <lang id="WIFI Basic Char Err"       string="SSID should not include &quot; &apos; &lt; &gt; &amp; * \ , ; : [ ] $" />
+  <lang id="WIFI SSID Char Err"       string="SSID should not start or end with space!" />
+  <lang id="WIFI KEY Char Err"       string="Invalid character, it should not include &quot; &apos; &lt; &gt; &amp; * \ , ; : [ ] $ or space"/>
+  
+  <!--advaned.asp page showError-->
+  <lang id="adv error1" string="Please specify Beacon Interval" />
+  <lang id="adv error2" string="Invalid Beacon Interval" />
+  <lang id="adv error3" string="Please specify DTIM Interval" />
+  <lang id="adv error4" string="Invalid DTIM Interval" />
+  <lang id="adv error5" string="Please specify Fragmentation Length" />
+  <lang id="adv error6" string="Invalid Fragmentation Length" />
+  <lang id="adv error7" string="Please specify RTS Threshold" />
+  <lang id="adv error8" string="Invalid RTS Threshold" />
+  <lang id="adv error9" string="Please specify Tx Power" />
+  <lang id="adv error10" string="Invalid Tx Power" />
+  
+  <!--wps.asp page showError-->
+  <lang id="adv error11" string="PIN number validation failed" />
+  
+  <!--security.asp page showError-->
+  <lang id="sec error11" string="Please input WPA key!" />
+  <lang id="sec error12" string="Please input at least 8 character of WPA key!" />
+  <lang id="sec error13" string="Invalid characters in Pass Phrase." />
+  <lang id="sec error14" string="Please choose a WPA Algorithms." />
+  <lang id="sec error15" string="Please input a valid key renewal interval" />
+  <lang id="sec error16" string="Warning: A short key renewal interval." />
+  <lang id="sec error17" string="Please choose the 802.1x WEP option." />
+  <lang id="sec error18" string="Please choose the Pre-Authentication options." />
+  <lang id="sec error19" string="Please input the PMK Cache Period." />
+  <lang id="sec error20" string="The mac address in Access Policy form is invalid." />
+  <lang id="sec error21" string="Please choose a WPA Algorithms." />
+  <lang id="sec error22" string="Please input a valid key renewal interval" />
+  <lang id="sec error23" string="Warning: A short key renewal interval." />
+  <lang id="sec error24" string="Please input the radius server ip address." />
+  <lang id="sec error25" string="Please input the radius server port number." />
+  <lang id="sec error26" string="Please input the radius server shared secret." />
+  <lang id="sec error27" string="Please input a valid radius server ip address." />
+  <lang id="sec error28" string="Please input a valid radius server port number." />
+  <lang id="sec error29" string="The shared secret contains invalid characters." />
+  <lang id="sec error30" string="Please input a valid session timeout number or u may left it empty." />
+  <lang id="sec error31" string="Please input WEP key!" />
+  <lang id="sec error32" string="Please input 5 or 13 characters of WEP key1 !" />
+  <lang id="sec error33" string="WEP key1 contains invalid characters." />
+  <lang id="sec error34" string="Please input 10 or 26 characters of WEP key1 !" />
+  <lang id="sec error35" string="Invalid WEP key1 format!" />
+  <lang id="sec error36" string="Please input 5 or 13 characters of WEP key2 !" />
+  <lang id="sec error37" string="WEP key2 contains invalid characters." />
+  <lang id="sec error38" string="Please input 10 or 26 characters of WEP key2 !" />
+  <lang id="sec error39" string="Invalid WEP key2 format!" />
+  <lang id="sec error40" string="Please input 5 or 13 characters of WEP key3 !" />
+  <lang id="sec error41" string="WEP key3 contains invalid characters." />
+  <lang id="sec error42" string="Please input 10 or 26 characters of WEP key3 !" />
+  <lang id="sec error43" string="Invalid WEP key3 format!" />
+  <lang id="sec error44" string="Please input 5 or 13 characters of WEP key4 !" />
+  <lang id="sec error45" string="WEP key4 contains invalid characters." />
+  <lang id="sec error46" string="Please input 10 or 26 characters of WEP key4 !" />
+  <lang id="sec error47" string="Invalid WEP key4 format!" />
+  <lang id="sec error48" string="please select one channel!" />
+  <lang id="sec error49" string="Please input key!" />
+  <lang id="sec error50" string="Please input at least 8 character!" />
+  <lang id="sec error51" string="Invalid characters." />
+  <lang id="sec error52" string="The character string is too long." />
+  <lang id="sec error53" string="Please input 8 to 63 ASCII characters or 64 Hex characters of WPA passshrase" />
+  <lang id="sec error54" string="The mac address you added has exist!" />
+  <lang id="sec error55" string="The WPS is Enabled now, the setting is forbidden!" />
+  <lang id="sec error56" string="The NDIS is not avaiablel now, this action is forbidden!" />
+</langage>

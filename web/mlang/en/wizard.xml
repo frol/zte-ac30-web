@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<langage>
+<lang id="Wizard Quick Setup" string="Quick Setup" />
+<lang id="Quick Setup narrate 101" string="&#8226;The wizard will show you how to set up your gateway in the 
+						safe way: Click &quot;Next&quot; to continue, click &quot;Back&quot;" />
+<lang id="Quick Setup narrate 102" string="and &quot;Next&quot;to navigate, and click &quot;Finish&quot; to save the settings." />
+<lang id="Quick Setup narrate 103" string="Notes:" />
+<lang id="Quick Setup narrate 104" string="Basic parameters can be set in this wizard. For advanced parameters, you need to set them in other menus." />
+<lang id="Quick Setup Next" string="Next" />
+
+<lang id="Quick Setup Profile title" string="Quick Setup-->PPP Profile Configuration" />
+<lang id="Quick_Setup_narrate_201" string="&#8226;Profile Name: The default profile that you used currently." />
+<lang id="Quick_Setup_narrate_202" string="&#8226;APN: If a fixed APN(Access Point Name) is given by your ISP, select &quot;Manual APN&quot;; otherwise, select &quot;Auto APN&quot;, the gateway automatically obtains it." />
+<lang id="Quick_Setup_narrate_203" string="&#8226;Dial No.:This parameter is provided by your ISP, Dial No. is used for data service connections;" />
+<lang id="Quick Setup Profile" string="Profile" />
+<lang id="Quick Setup Profile name" string="Profile Name" />
+<lang id="Quick Setup Profile apn" string="APN" />
+<lang id="Quick Setup APN Setting" string="APN Setting" />
+<lang id="Quick Setup APN Auto" string="Auto APN" />
+<lang id="Quick Setup APN Manual" string="Manual APN" />
+<!--<lang id="Quick Setup manual apn" string="Automatic" />-->
+<lang id="Quick Setup Dial Setting" string="Dial Setting" />
+<lang id="Quick Setup Dial No" string="Dial No." />
+<lang id="Quick Setup APN Back" string="Back" />
+
+<!--<lang id="Quick Setup APN Next" string="Next" />-->
+<lang id="Quick_Setup_PPP_Authentication_title" string="Quick Setup-->PPP Authentication" />
+<lang id="Quick_Setup_PPP_Authentication" string="&#8226;PPP Authentication" />
+<lang id="Quick_Setup_narrate_301" string="The authentication mode is provided by your Internet Service Provider(ISP)." />
+<lang id="Quick_Setup_narrate_302" string="Password Authentication Protocol(PAP): It provides a simple method without encryption for the peer to" />
+<lang id="Quick_Setup_narrate_303" string="establish its identity using a 2-way handshake." />
+<lang id="Quick_Setup_narrate_304" string="Challenge-Handshake Authentication Protocol(CHAP): It is used to periodically verify the identity of the peer" />
+<lang id="Quick_Setup_narrate_305" string="PPP User Name and PPP Password are provided by your ISP and used to obtain authentication from the ISP when the connection is established." />
+<lang id="PPP_Authentication_title" string="PPP Authentication" />
+<lang id="Quick_Setup_Authentication" string="Authentication" />
+<lang id="Quick_Setup_Authentication_CHAP" string="CHAP" />
+<lang id="Quick_Setup_Authentication_PAP" string="PAP" />
+<lang id="Quick_Setup_Authentication_PPPUserName" string="PPP User Name" />
+<lang id="Quick_Setup_Authentication_PPPPassword" string="PPP Password" />
+<!--<lang id="Quick_Setup_AUTHEN_back" string="PDP Address" />-->
+<!--<lang id="Quick_Setup_AUTHEN_Next" string="DNS" />-->
+<lang id="Quick_Setup_SSID_Configuration" string="Quick Setup -->SSID Configuration" />
+<lang id="Quick_Setup_narrate_401" string="&#8226;Name SSID(Service Set Identifier): Enter a character string up to 32 characters as the name for your wireless local area network(WLAN)." />
+<lang id="Quick_Setup_narrate_402" string="&#8226;SSID Broadcast" />
+<lang id="Quick_Setup_narrate_403" string="Enabled: The gateway broadcasts the SSID and other devices can detect and connect to it." />
+<lang id="Quick_Setup_narrate_404" string="Disabled: The gateway disables broadcasting and hides the name of your network." />
+<lang id="Quick_Setup_SSID" string="SSID" />
+<lang id="Quick_Setup_SSID_Name" string="Name(SSID)" />
+<lang id="Quick_Setup_SSID_Broadcast" string="SSID Broadcast" />
+<!--<lang id="Quick_Setup_SSID_Broadcast02" string="Set default" />-->
+<lang id="Quick_Setup_Broadcast_EB" string="Enabled" />
+<lang id="Quick_Setup_Broadcast_DB" string="Disabled" />
+
+<lang id="Quick_Setup_Security_Configuration" string="Quick Setup-->Security Configuration" />
+<lang id="Quick_Setup_narrate_501" string="&#8226;Add encryption to your wireless network to prevent unauthorised traffic monitoring and access." />
+<lang id="Quick_Setup_narrate_502" string="No Encryption: Your wireless network is open to everyone without authentication and encryption, and this" />
+<lang id="Quick_Setup_narrate_503" string="option is not recommended." />
+<lang id="Quick_Setup_narrate_504" string="Wireless Equivalent Privacy(WEP): It is a 64-bit or 128-bit encryption method with user configurable fixed" />
+<lang id="Quick_Setup_narrate_505" string="keys." />
+<lang id="Quick_Setup_narrate_506" string="Wi-Fi Protected Access(WPA): It is a 256-bit encryption method with keys changing automatically." />
+<lang id="Quick_Setup_narrate_507" string="WPA2: It is the securer version of WPA with implementation of the 802.11i standard." />
+<lang id="Quick_Setup_narrate_508" string="WPA Encryption Algorithm: TKIP, AES, TKIP+AES." />
+<lang id="Quick_Setup_narrate_509" string="WPA Pre-Shared Key: Enter the Pre-Shared key as a plain text(ASCII) pass-phrase of at least 8 characters." />
+<lang id="Quick_Setup_narrate_510" string="Key Rotation Interval: Specify the key update interval in seconds. Enter 0 to disable the update function." />
+<lang id="Quick_Setup_narrate_511" string="Network Key: Enter 5 ASCII characters or 10 hexadecimal digits for a 64-bit key, enter 13 ASCII" />
+<lang id="Quick_Setup_narrate_512" string="characters or 26 hexadecimal digits for a 128-bit key." />
+<lang id="Quick_Setup_Encryption_Mode_title" string="Encryption Mode" />
+<!--<lang id="Quick_Setup_Encryption_Mode" string="Disabled" />-->
+<lang id="Quick_Setup_Encryption_Mode_NO" string="NO ENCRYPTION" />
+<lang id="Quick_Setup_Encryption_Mode_WPAPSK" string="WPA-PSK" />
+<lang id="Quick_Setup_Encryption_Mode_WPA2PSK" string="WPA2-PSK" />
+<lang id="Quick_Setup_Encryption_WPAPSKWPA2PSK" string="WPA-PSK/WPA2-PSK" />
+<lang id="Quick_Setup_Encryption_Mode_WEPAUTO" string="WEPAUTO" />
+<lang id="Quick_Setup_Encryption_Mode_OPENWEP" string="OPEN-WEP" />
+<lang id="Quick_Setup_Encryption_Mode_SHARED" string="SHARED" />
+<lang id="Quick_Setup_WPA_ENCRYPTION" string="WPA ENCRYPTION" />
+<lang id="Quick_Setup_WPA_TKIP" string="TKIP" />
+<lang id="Quick_Setup_WPA_AES" string="AES" />
+<lang id="Quick_Setup_WPA_TKIPAES" string="AUTO" />
+<lang id="Quick_Setup_WPA_Key" string="WPA Pre-Shared Key" />
+<lang id="Quick_Setup_Rotation_Interval" string="Network Key Rotation Interval" />
+<lang id="Quick_Setup_Network_Key_1" string="Network Key 1" />
+<lang id="Quick_Setup_Hex" string="Hex" />
+<lang id="Quick_Setup_ASCII" string="ASCII" />
+
+<lang id="Quick_Setup_Configuration_Follows" string="Quick Setup-->Configuration as Follows" />
+<lang id="Quick_Setup_Configuration_ProfileName" string="Profile Name:" />
+<lang id="Quick_Setup_Configuration_DialNo" string="Dial No.:" />
+<lang id="Quick_Setup_Configuration_UserName" string="PPP User Name:" />
+<lang id="Quick_Setup_Configuration_APNSetting" string="APN Setting:" />
+<lang id="Quick_Setup_Configuration_APN" string="APN:" />
+<lang id="Quick_Setup_Configuration_Authentication" string="PPP Authentication:" />
+<lang id="Quick_Setup_Configuration_NameSSID" string="Name (SSID):" />
+<lang id="Quick_Setup_Configuration_SSIDBroadcast" string="SSID Broadcast:" />
+<lang id="Quick_Setup_Configuration_EncryptionMode" string="Encryption Mode:" />
+<lang id="Quick_Setup_Configuration_Apply" string="Apply" />
+
+</langage>

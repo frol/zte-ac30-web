@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<langage>
+<!-- this is common section button for advanced button-->
+<lang id="adv button apply"  string="Apply" />
+<lang id="adv button cancel" string="Cancel" />
+<lang id="adv button upgrade" string="Upgrade" />
+<lang id="adv button restore" string="Restore" />
+<lang id="adv button shutdown" string="Shutdown" />
+<lang id="adv select disable" string="Disable" />
+<lang id="adv select enable" string="Enable" />
+<lang id="adv select modify" string="Modify" />
+
+<!-- this is common section for secondary title-->
+<lang id="adv sec title status" string="&#8226;Status" />
+<lang id="adv sec title statistics" string="&#8226;Statistics" />
+<lang id="adv sec title management" string="&#8226;Management" />
+<lang id="adv sec title upgrade" string="&#8226;Upgrade" />
+<lang id="adv sec title restore" string="&#8226;Restore" />
+<lang id="adv sec title shutdown" string="&#8226;Shutdown" />
+<lang id="adv sec title pin manage" string="&#8226;PIN Manage" />
+
+<!-- this section is for advanced (status.asp)-->
+<lang id="adv status title" string="Advanced--&gt;Status" />
+<lang id="adv status system info" string="System Info" />
+<lang id="adv status imei" string="IMEI" />
+<lang id="adv status usbmodem version" string="Wireless access module software version" />
+<lang id="adv status cpe version" string="Control and route module software version" />
+<lang id="adv status hw version" string="Hardware version" />
+<lang id="adv status system uptime" string="System Up Time" />
+
+<!-- this section is for advanced (statistic.asp)-->
+<lang id="adv statistics title" string="Advanced--&gt;Statistics" />
+<lang id="adv statistics memory" string="Memory" />
+<lang id="adv statistics memory total" string="Memory total:" />
+<lang id="adv statistics memory left" string="Memory left:" />
+<lang id="adv statistics wan lan" string="WAN/LAN" />
+<lang id="adv statistics wan rx packets" string="WAN Rx packets:" />
+<lang id="adv statistics wan rx bytes" string="WAN Rx bytes:" />
+<lang id="adv statistics wan tx packets" string="WAN Tx packets:" />
+<lang id="adv statistics wan tx bytes" string="WAN Tx bytes:" />
+<lang id="adv statistics lan rx packets" string="LAN Rx packets:" />
+<lang id="adv statistics lan rx bytes" string="LAN Rx bytes:" />
+<lang id="adv statistics lan tx packets" string="LAN Tx packets:" />
+<lang id="adv statistics lan tx bytes" string="LAN Tx bytes:" />
+
+<!-- this section is for advanced (management.asp)-->
+<lang id="adv management title" string="Advanced--&gt;Management" />
+<lang id="adv management admin settings" string="Administrator Settings" />
+<lang id="adv management account" string="Account" />
+<lang id="adv management passwd" string="Password" />
+
+<!-- this section is for advanced (upload_firmware.asp)-->
+<lang id="adv upgrade title" string="Advanced--&gt;Upgrade" />
+<lang id="adv upgrade firmware" string="Update Firmware" />
+<lang id="adv upgrade location" string="Location:" />
+
+<!-- this section is for advanced (upgradeProgress.asp)-->
+<lang id="adv upg progress L1" string="Upgrading, please wait...." />
+<lang id="adv upg progress L2" string="Upgrading, please don't cut off your power supply..." />
+<lang id="adv upg progress L3" string="After upgrade, It will turnoff automatically,you should turnon it by manually!" />
+<lang id="adv upg progress L4" string="It is dangerous to do other operation while Upgrading!" />
+
+<!-- this section is for advanced (restore.asp)-->
+<lang id="adv restore title" string="Advanced--&gt;Restore" />
+<lang id="adv load factory default" string="Load Factory Defaults" />
+<lang id="adv load default button" string="Load Default Button" />
+
+<!-- this section is for advanced (shutdown.asp)-->
+<lang id="adv shutdown title" string="Advanced--&gt;Shutdown" />
+<lang id="adv shutdown home gateway" string="Shutdown Home Gateway" />
+<lang id="adv shutdown" string="Shutdown" />
+
+<!-- this section is for advanced (pin_manage.asp)-->
+<lang id="adv pinm title" string="Advanced--&gt;PIN Manage" />
+<lang id="adv pinm" string="PIN Manage" />
+<lang id="adv pinm pin status" string="PIN Status" />
+<lang id="adv pinm action" string="Action" />
+<lang id="adv pinm pin" string="PIN" />
+<lang id="adv pinm newpin" string="New PIN" />
+<lang id="adv pinm confirm newpin" string="Confirm New PIN" />
+
+<lang id="adv pinm pin last result L1" string="Your final result is management success." />
+<lang id="adv pinm pin last result L2" string="Your final result is management failed." />
+
+<lang id="adv You need restart device" string="You need to restart the device, then input the puk code to unlock it!" />
+<lang id="adv attempts remaining" string=" attempt(s) remaining for your PIN!" />
+
+<lang id="Change administrator password successfully." string="Successful!" />
+<lang id="Current administrator password error." string="Failed!" />
+
+</langage>

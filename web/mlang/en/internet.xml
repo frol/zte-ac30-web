@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<langage>
+<!--lan.asp-->
+<lang id="Router Lan Title"               string="Router--&gt;LAN" />
+<lang id="Router Lan Menu 1"              string="&#8226;LAN" />
+<lang id="Router Lan Menu 2"              string="&#8226;DHCP Clients" />
+<lang id="Router Lan Sub Title"           string="LAN Interface Setup" />
+<lang id="Router Lan IP Address"          string="IP Address" />
+<lang id="Router Lan Subnet Mask"         string="Subnet Mask" />
+<lang id="Router Lan MAC Address"         string="MAC Address" />
+<lang id="Router Lan DHCP Type"           string="DHCP Type" />
+<lang id="Router Lan DHCP Type Disable"   string="Disable" />
+<lang id="Router Lan DHCP Type Server"    string="Server" />
+<lang id="Router Lan DHCP IP Pool"          string="DHCP IP Pool" />
+<lang id="Router Lan DHCP Start"          string="DHCP Start IP" />
+<lang id="Router Lan DHCP End"            string="DHCP End IP" />
+<lang id="Router Lan DHCP Lease"          string="DHCP Lease Time" />
+<lang id="Router Lan DHCP Lease Unit"     string="hour(s)" />
+<lang id="Router Lan UPNP"                string="UPNP" />
+<lang id="Router Lan UPNP Disable"        string="Disable" />
+<lang id="Router Lan UPNP Enable"         string="Enable" />
+<lang id="Router Lan Apply"               string="Apply" />
+<lang id="Router Lan Cancel"              string="Cancel" />
+<!--dhcpcliinfo.asp-->
+<lang id="Router DHCP Clients Title"      string="Router--&gt;DHCP Clients" />
+<lang id="Router DHCP Clients Menu 1"     string="&#8226; LAN" />
+<lang id="Router DHCP Clients Menu 2"     string="&#8226;DHCP Clients" />
+<lang id="Router DHCP Clients Sub Title"  string="DHCP Clients" />
+<lang id="Router DHCP Clients Host"       string="Host Name " />
+<lang id="Router DHCP Clients MAC"        string="MAC Address" />
+<lang id="Router DHCP Clients IP"         string="IP Address" />
+<lang id="Router DHCP Clients Expires"    string="Expires in" />
+<lang id="Router DHCP Clients Refresh"    string="Refresh" />
+</langage>

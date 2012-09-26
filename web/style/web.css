@@ -1,0 +1,516 @@
+/* CSS Document web5v*/
+html{
+	overflow-x:hidden;
+}
+body{
+	margin:0px;
+	background:#000000;
+}
+#mainDiv{
+	width:100%;
+	height:100%;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+
+#headDiv{
+	width:413px;
+	height:50px;
+	line-height: 50px;
+	overflow: hidden;
+	border:#666 0px solid;
+	background: #4D316B;
+	color: #f8f2fe;
+}
+#headTitle{
+	background:#CCECA6;
+	height:20px;
+	width:100%;
+	line-height:20px; 
+	overflow: hidden;
+	font-size:10px;
+	display:none;
+	color:#4C6C26;
+	text-align:center;
+}
+
+#tip{
+	height:17px;
+	overflow:hidden;
+	line-height:25px;
+	color:#FF0000;
+	font-size:12px;
+	margin-bottom:2px;
+	text-transform:none;
+	line-height: 15px; 
+	overflow: hidden;
+	word-spacing:normal;
+	border-bottom:0px;
+	font-weight:normal;
+}
+#bodyDiv{
+	width:330px;
+	height:150px;
+	font-size:12px;
+	color:#FFF;
+	border-top:0px;
+}
+input.textBox{
+	width:110px;
+	height:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.serverBox{
+	width:150px;
+	height:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.dateBox{
+	width:40px;
+	height:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#5F42BA;
+}
+.portTxtBox{
+	width:35px;
+	height:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-left:5px;
+}
+input.IPTextBox{
+	width:110px;
+	height:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+input.button{
+	background:#FFFBCB;
+	border:#666 1px solid;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	width:60px;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+.upgrageButton{
+	background:#FFFBCB;
+	border:#666 1px solid;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	width:63px;
+	height:20px;
+	cursor:pointer;
+	margin-top:5px;
+}
+#footer{
+	border-top:#666 1px solid;
+	font-size:10px;
+	margin-top:22%;
+	overflow: hidden;
+}
+#foot{
+	border-top:#666 1px solid;
+	font-size:10px;
+	overflow: hidden;
+}
+.headColor{
+	background:#8CC63F;
+	vertical-align:bottom;
+	word-spacing:10px;
+	text-transform:uppercase;
+}
+.loginTd{
+	height:25px;
+}
+/*//////////////// C division MENU CSS  ///////////////////*/
+#menuItem{
+	margin-bottom:46px;
+	width:151px;
+	border:0px solid #231646;
+	font-size:10px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.Menu{
+	background:#3B8400;
+	width:151px;
+	height:23px;
+	border:#231646 1px solid;
+	overflow:hidden;
+	line-height:23px;
+	color: #FFFFFF;
+}
+.menuFooter{
+	background:#FFCC00;
+	width:152px;
+	height:20px;
+	border:#CCC 1px solid;
+}
+.pageFooter{
+	background:#C6C8CA;
+	width:100%;
+	height:18px;
+}
+.subMenu{
+	background:#8CC63F;
+	width:151px;
+	height:23px;
+	overflow:hidden;
+	line-height:23px;
+	color:#0000FF;
+	border:#231630 0.02em solid;
+}
+.subSpan{
+	margin-left:26px;
+}
+#showFrm{
+	border:#666666 1px solid;
+	border-bottom:none;
+	border-left:none;
+}
+
+a.Ddivison{
+	display: block;
+	text-decoration:none;
+}
+a.Ddivison:hover{
+	color:#333333;
+	background:#CCCC99;
+}
+a.Ddivison:link{
+	color:#666;
+	font-size:12px;
+}
+a.Ddivison:visited{
+	color:#666;
+	text-decoration:none;
+}
+
+a.pmenu{
+	display: block;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+a.pmenu:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+a.pmenu:visited{
+	color:#FFF;
+	text-decoration:none;
+}
+a.pmenu:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+	background:#00F200;
+	padding:0px 3px 0px 3px;
+}
+a.pmenu:active{
+	color:#0000FF;
+	text-decoration:none;
+	background:#00F200 ;
+	padding:0px 3px 0px 3px;
+}
+
+
+a.cmenu{
+	display: block;
+	text-decoration:none;
+}
+
+a.cmenu:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+a.cmenu:visited{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+a.cmenu:hover{
+	color:#0000FF;
+	text-decoration:none;
+	background:#00F200;
+	padding:0px 3px 0px 3px;
+}
+a.cmenu:active{
+	color:#0000FF;
+	text-decoration:none;	
+	padding:0px 3px 0px 3px;
+}
+/*//////////////////   D division CSS  ///////////////////////*/
+table{
+	font-size:12px;
+	color:#666;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	border-collapse:collapse;
+	background:#FFFFFF;
+}
+.th{
+	font-size:12px;
+	height:30px;
+	background:#FFD848;
+	color: #000;
+}
+.td{
+	height:25px;
+	border:#CCC 1px solid;
+}
+.statusTd{
+	height:22px;
+	border:#CCC 1px solid;
+	line-height:22px;
+}
+td1 {
+	width: 100%;
+	height: 16px;
+}
+
+.v_td{
+	line-height:35px;
+	overflow:hidden;
+	border:#666666 solid 1px;
+}
+.vvLTd{
+	margin-left:15%;
+	float:left;
+	border: #CCC 0px solid;
+}
+.tdDiv{
+	margin-left:3px;
+	float:left;
+
+}
+.subTdDiv{
+	margin-left:25%;
+}
+.supTdDiv{
+	margin-left:25%;
+
+}
+.qsTdDiv{
+	margin-left:25%;
+	width:250px;
+	float:left;
+	height:100%;
+	line-height:22px;
+
+}
+.ProxytdDiv{
+	margin-left:10%;
+	float:left;
+}
+
+.ProxyRDiv{
+	margin-left:30px;
+	float:left;
+
+}
+.format{
+	width:60%;
+	height:25px;
+	float:left;
+	overflow:hidden;
+	line-height:25px;
+	margin-left:5px;
+}
+
+.statusFormat{
+	width:60%;
+	height:22px;
+	float:left;
+	overflow:hidden;
+	line-height:22px;
+	margin-left:5px;
+}
+.StusTdDiv{
+	text-align:center;
+	color:#666666;
+
+}
+.StusTd{
+	height:25px;
+	width:135px;
+	border:#CCC 1px solid;
+}
+.SysLogTd{
+	height:25px;
+	width:270px;
+	border:#CCC 1px solid;
+	text-align:center;}
+.calRecTd{
+	height:25px;
+	width:135px;
+	border:#CCC 1px solid;
+	text-align:center;
+}
+
+.proxyTd{
+	height:25px;
+	border:#CCC 1px solid;
+}
+.calForTd{
+	height:25px;
+	width:135px;
+	border:#CCC 1px solid;
+}
+.spButton{
+	background:#FFFBCB;
+	border:#666 1px solid;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	width:30px;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+.longButton{	
+	background:#FFFBCB;
+	border:#666 1px solid;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	text-transform:uppercase;
+	cursor:pointer;
+	width:150px;
+}
+
+.wizardButton{	
+	background:#FFFBCB;
+	border:#666 1px solid;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000;
+	text-transform:uppercase;
+	cursor:pointer;
+	width:100px;
+}
+
+.promDiv{
+	float:left;
+	overflow:hidden;
+	line-height:22px;	
+	font-size:10px;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	margin-left:10px;
+	color:#FF0000;
+}
+.adsSelect{
+	width:80px;
+	font-size:11px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.callLogSelect{
+	width:100px;
+	font-size:11px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.leftTd{
+
+	border-bottom:0px;
+	border-top:0px;
+	border-left:0px;
+	width:20%;
+	height:25px;
+	line-height:25px;
+	overflow:hidden;
+	float:left;
+	margin-left:3px;
+}
+.statusLeftTd{
+
+	border-bottom:0px;
+	border-top:0px;
+	border-left:0px;
+	width:20%;
+	height:23px;
+	line-height:23px;
+	overflow:hidden;
+	float:left;
+	margin-left:3px;
+}
+.rightTd{
+	border:#CCCCCC 1px solid; 
+	border-bottom:0px; 
+	border-top:0px;
+	border-right:0px;
+	width:100%;
+	line-height:25px;
+	overflow:hidden;
+	margin-left:10%;
+}
+.taLeftTd{
+	border-bottom:0px;
+	border-top:0px;
+	border-left:0px;
+	width:20%;
+	height:40px;
+}
+.cfTd{
+	border-bottom:0px;
+	border-top:0px;
+	border-right:0px;
+	width:30.5%;
+	height:25px;
+	line-height:25px;
+	overflow:hidden;
+	margin-left:3px;
+}
+.slsLTd{
+	border:#CCCCCC 1px solid;
+	border-bottom:0px;
+	border-top:0px;
+	border-left:0px;
+	width:168px;
+	height:25px;
+	line-height:25px;
+	overflow:hidden;
+	margin-left:3px;
+	text-align:left;
+}
+.logDiv{
+	width:55%;
+	margin-left:5px;
+}
+.CallFrdProm{
+	float:left;
+	overflow:hidden;
+	line-height:25px;	
+	font-size:10px;
+	color:#FF0000;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+
+.left_fontColor{
+	color:#666666;
+}
+.define_style{
+	margin-left:5px;
+}
+
+a.learn{
+	display: block;
+	text-decoration:underline;
+}
+
+a.learn:link{
+	color:#666;
+	font-size:12px;
+}
+
+a.learn:hover{
+	color:#333333;
+	background:#CCCC99;
+}
+.wizard_tip{
+	margin-left:14%;
+	margin-bottom:3px;
+	margin-top:3px;
+}

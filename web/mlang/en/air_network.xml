@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<langage>
+<lang id="3G sec menue wireless info" string=" &#8226; Wireless Info" />
+<lang id="3G sec menue network select" string="&#8226;Network Select" />
+<lang id="3G sec menue APN setting" string="&#8226;APN Setting" />
+
+<lang id="3G WI wireless info title" string="3G Settings--&gt;Wireless Info" />
+<lang id="3G WI wireless info" string="3G Wireless Information" />
+<lang id="3G WI network provider" string="Network Provider" />
+<lang id="3G WI network type" string="Network Type" />
+<lang id="3G WI roam" string="Roam" />
+<lang id="3G WI rssi" string="RSSI" />
+<lang id="3G WI rscp" string="RSCP" />
+<lang id="3G WI ec-io" string="Ec/Io" />
+<lang id="3G WI cell id" string="Cell ID" />
+<lang id="3G WI lac code" string="LAC Code" />
+<lang id="3G Refresh" string="Refresh" />
+
+<lang id="3G Title Network Sel" string="3G Settings--&gt;Network Select" />
+<lang id="3G NS Band Select Mode" string="Band Selection Mode" />
+<lang id="3G NS Automatic" string="Automatic" />
+<lang id="3G NS Only WCDMA" string="Only WCDMA" />
+<lang id="3G NS Only GSM" string="Only GSM" />
+<lang id="3G Apply" string="Apply" />
+
+<lang id="3G Title APN set" string="3G Settings--&gt;APN Setting" />
+<lang id="3G TN APN Setting" string="APN Setting" />
+<lang id="3G APN Current Status" string="current status" />
+<lang id="3G APN Profile selecetion" string="Profile Selection" />
+<lang id="3G APN Profile Name" string="Profile Name" />
+<lang id="3G APN APN Setting" string="APN Setting" />
+<lang id="3G APN Auto APN" string="Auto APN" />
+<lang id="3G APN Manual APN" string="Manual APN" />
+<lang id="3G APN APN" string="APN" />
+<lang id="3G APN Dial No" string="Dial No." />
+<lang id="3G APN PDP Type" string="PDP Type" />
+<lang id="3G APN PDP Setting" string="PDP Setting" />
+<lang id="3G APN Auto PDP" string="Auto PDP " />
+<lang id="3G APN Manual PDP" string="Manual PDP" />
+<lang id="3G APN PDP Address" string="PDP Address" />
+<lang id="3G APN DNS" string="DNS" />
+<lang id="3G APN Auto DNS" string="Auto DNS" />
+<lang id="3G APN Manual DNS" string="Manual DNS" />
+<lang id="3G APN Primary DNS" string="Primary DNS" />
+<lang id="3G APN Secondary DNS" string="Secondary DNS" />
+<lang id="3G APN Authentication" string="Authentication" />
+<lang id="3G APN User Name" string="User Name" />
+<lang id="3G APN Password" string="Password" />
+<lang id="3G APN Save" string="Save" />
+<lang id="3G APN Set Default" string="Set default" />
+<lang id="3G APN Add" string="Add" />
+<lang id="3G APNDelete" string="Delete" />
+
+</langage>
